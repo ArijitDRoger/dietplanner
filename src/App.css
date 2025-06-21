@@ -1,0 +1,46 @@
+/* in index.css or App.css */
+body {
+  background-color: #f8f9fa;
+}
+.card {
+  border-radius: 12px;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.sidebar {
+  min-height: 100vh;
+  width: 250px;
+  background-color: #0b0033; /* Navy */
+  color: #ffcc00;
+  padding: 1rem;
+}
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.bg-purple {
+  background-color: #a033ff;
+}
+
+.text-yellow {
+  color: #ffcc00;
+}
+
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+  }
+
+  .d-flex {
+    flex-direction: column;
+  }
+}
